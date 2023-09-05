@@ -1,0 +1,25 @@
+business
+entertainment
+general
+health
+science
+sports
+technology
+//REACT COMPONENT LIFESYCLE
+// .THE SERIES OF EVENTS THAT HAPPENS FROM THE MOUNTING OF A REACT COMPONENT TO ITS UNMOUNTING
+//MOUNTING-BIRTH OF YOUR COMPONENT
+//UPDATE- GROWTH OF THE COMPONENT 
+
+//THE RENDER() METHOD IS USED TO RENDER HTML OF THE COMPONENT IN REACT. Is required for a class based component to render th DOM, iT runs during the mounting and updating of your component. Render() method should be pure means you cannot modify state in it
+//the componentDidMount() method runs after the component output has been rendered to the DOM
+//The componentDidUpdate() method is invoked as soon as the updating happens. The most common use case for the componentDidU[date() method is updating the DOM in resoonse to prop or state changes
+//the componentWillUnmount() lifecycke method id called just before compnent is unmounted and destroyed. Usually used to perform cleanups
+// apiKey="42b05d5913aa4ad79ff3f3702c8f6d85"
+//Hooks
+//Gives us the features of class based components in function based components
+//it allows you to use state and other React features without writing a class
+//hooks are the functions which "hook into" React state and lifecycle features from function components
+//useState:- variable and function to manipulate it
+//useEffect:- side effects 
+//useContext:- Context API 
+//useRef:- returns mutable reference object
